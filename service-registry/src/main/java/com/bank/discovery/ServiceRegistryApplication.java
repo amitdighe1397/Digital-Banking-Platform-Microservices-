@@ -1,14 +1,13 @@
-package com.info.customer;
+package com.bank.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerServiceApplication {
+public class ServiceRegistryApplication {
 
-	//start spring boot application here
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerServiceApplication.class, args);
+		SpringApplication.run(ServiceRegistryApplication.class, args);
 	}
 
 }
